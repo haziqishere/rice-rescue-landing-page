@@ -12,7 +12,7 @@ const Hero = (props: Props) => {
         <div className="header__text-box">
             <h1 className="heading-primary">
                 <span className="heading-primary--main">Rice Rescue</span>
-                <span className="heading-primary--sub">is where life happens</span>
+                <span className="heading-primary--sub">from seed to harvest</span>
             </h1>
         </div>
     </header>
