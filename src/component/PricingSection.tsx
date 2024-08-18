@@ -47,7 +47,7 @@ const PricingSection = (props: Props) => {
 
                         <div className="col-1-of-3">
                         <div className="card">
-                                <div className="card__side card__side--front card__side--front-2">
+                                <div className="card__side card__side--front card__side--front-1">
                                     <div className="card__picture card__picture--2">
                                         &nbsp;
                                     </div>
@@ -80,7 +80,7 @@ const PricingSection = (props: Props) => {
                         </div>
                         <div className="col-1-of-3">
                         <div className="card">
-                                <div className="card__side card__side--front card__side--front-3">
+                                <div className="card__side card__side--front card__side--front-1">
                                     <div className="card__picture card__picture--3">
                                         &nbsp;
                                     </div>
