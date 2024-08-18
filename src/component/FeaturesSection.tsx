@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 type Props = {}
 
@@ -9,9 +10,9 @@ const FeaturesSection = (props: Props) => {
                         <div className="col-1-of-4">
                             <div className="feature-box">
                                 <i className="feature-box__icon icon-basic-world"></i>
-                                <h3 className="heading-tertiary u-margin-bottom-small">Explore the world</h3>
+                                <h3 className="heading-tertiary u-margin-bottom-small">Hyperlocalizaion Mapping</h3>
                                 <p className="feature-box__text">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quasi iure autem ullam voluptates.
+                                    Using Google Maps API integraion. Helps farmers by pin pointing IoT devices in different fields
                                 </p>
                             </div>
                         </div>
@@ -19,19 +20,25 @@ const FeaturesSection = (props: Props) => {
                         <div className="col-1-of-4">
                             <div className="feature-box">
                                 <i className="feature-box__icon icon-basic-compass"></i>
-                                <h3 className="heading-tertiary u-margin-bottom-small">Meet nature</h3>
+                                <h3 className="heading-tertiary u-margin-bottom-small">Drone Automaion</h3>
                                 <p className="feature-box__text">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quasi iure autem ullam voluptates.
+                                    Custom fligh pahts via Google Maps. One-click deploy for automated pesticide spray
                                 </p>
                             </div>
                         </div>
 
                         <div className="col-1-of-4">
                             <div className="feature-box">
+                                <Image 
+                                    src='/img/ai_icon.png' 
+                                    alt='AI Icon'
+                                    height={200}
+                                    width={200} 
+                                />
                                 <i className="feature-box__icon icon-basic-map"></i>
-                                <h3 className="heading-tertiary u-margin-bottom-small">Find your way</h3>
+                                <h3 className="heading-tertiary u-margin-bottom-small">Smart Pest Detection</h3>
                                 <p className="feature-box__text">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quasi iure autem ullam voluptates.
+                                    Detects pest sounds for early intervenion. Audio classifier AI Model will be run continuosly on-site
                                 </p>
                             </div>
                         </div>
@@ -39,9 +46,9 @@ const FeaturesSection = (props: Props) => {
                         <div className="col-1-of-4">
                             <div className="feature-box">
                                 <i className="feature-box__icon icon-basic-heart"></i>
-                                <h3 className="heading-tertiary u-margin-bottom-small">Live a healthier life</h3>
+                                <h3 className="heading-tertiary u-margin-bottom-small">AI Plant Healh Analysis</h3>
                                 <p className="feature-box__text">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quasi iure autem ullam voluptates.
+                                    Provide insights on nurient levels & disease detection
                                 </p>
                             </div>
                         </div>

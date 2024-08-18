@@ -7,7 +7,7 @@ const PricingSection = (props: Props) => {
         <section className="section-tours">
                     <div className="u-center-text u-margin-bottom-big">
                         <h2 className="heading-secondary">
-                            Most popular tours
+                            Add-Ons Hardware Pricing
                         </h2>
                     </div> 
                     <div className="row">
@@ -19,12 +19,12 @@ const PricingSection = (props: Props) => {
                                     </div>
                                     <h4 className="card__heading">
                                         <span className="card__heading-span card__heading-span--1">
-                                            The Sea Explorer  
+                                            Pest Detector Sensor with AI Integraion 
                                         </span>
                                     </h4>
                                     <div className="card__details">
                                         <ul>
-                                            <li>3 day tours</li>
+                                            <li>Paxx</li>
                                             <li>Up to 30 people</li>
                                             <li>2 tour guides</li>
                                             <li>Sleep in cozy hotels</li>
@@ -36,9 +36,10 @@ const PricingSection = (props: Props) => {
                                     <div className="card__cta">
                                         <div className="card__price-box">
                                             <p className="card__price-only">Only</p>
-                                            <p className="card__price-value">$297</p>
+                                            <p className="card__price-value">$76.73</p>
+                                            <p className="card_price_value">/unit</p>
                                         </div>
-                                        <a href="#" className="btn btn--white">Book now!</a>
+                                        <a href="#" className="btn btn--white">Buy now!</a>
                                     </div>
                                 </div>
                             </div>
@@ -52,7 +53,7 @@ const PricingSection = (props: Props) => {
                                     </div>
                                     <h4 className="card__heading">
                                         <span className="card__heading-span card__heading-span--2">
-                                            The Forest Hiker  
+                                            Soil Temperature & Humidty Sensor  
                                         </span>
                                     </h4>
                                     <div className="card__details">
@@ -69,9 +70,10 @@ const PricingSection = (props: Props) => {
                                     <div className="card__cta">
                                         <div className="card__price-box">
                                             <p className="card__price-only">Only</p>
-                                            <p className="card__price-value">$597</p>
+                                            <p className="card__price-value">$11.26</p>
+                                            <p className="card_price_value">/unit</p>
                                         </div>
-                                        <a href="#" className="btn btn--white">Book now!</a>
+                                        <a href="#" className="btn btn--white">Buy now!</a>
                                     </div>
                                 </div>
                             </div>
@@ -84,7 +86,7 @@ const PricingSection = (props: Props) => {
                                     </div>
                                     <h4 className="card__heading">
                                         <span className="card__heading-span card__heading-span--3">
-                                            The Snow Adventurer 
+                                            Autonomous Drone
                                         </span>
                                     </h4>
                                     <div className="card__details">
@@ -101,9 +103,10 @@ const PricingSection = (props: Props) => {
                                     <div className="card__cta">
                                         <div className="card__price-box">
                                             <p className="card__price-only">Only</p>
-                                            <p className="card__price-value">$897</p>
+                                            <p className="card__price-value">$300</p>
+                                            <p className="card_price_value">/unit</p>
                                         </div>
-                                        <a href="#" className="btn btn--green">Book now!</a>
+                                        <a href="#" className="btn btn--white">Buy now!</a>
                                     </div>
                                 </div>
                             </div>
@@ -111,7 +114,7 @@ const PricingSection = (props: Props) => {
 
                     </div>
                     <div className="u-center-text u-margin-top-huge">
-                            <a href="#" className="btn btn--green">Discover all tours</a>
+                            <a href="#" className="btn btn--green">More Info</a>
                     </div>    
                 </section>
     );
